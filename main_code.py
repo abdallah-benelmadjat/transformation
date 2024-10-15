@@ -4,7 +4,7 @@ from PIL import Image
 import scipy.io as sio
 
 # Load the image
-image_path = 'C:/Users/abdou/Desktop/MATHmatlab/transformationL.png'
+image_path = 'transformationL.png'
 image = Image.open(image_path).convert('L')  # Convert to grayscale
 U = np.array(image)
 
